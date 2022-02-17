@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/activity_main_layout_menu_add"
+        android:title="添加"/>
+    <item android:id="@+id/activity_main_layout_menu_delete"
+        android:title="删除"/>
+    <item android:id="@+id/activity_main_layout_menu_about"
+        android:title="关于"/>
+</menu>
