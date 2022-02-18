@@ -31,37 +31,38 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <TextView
         android:id="@+id/activity_online_video_text01"
         android:layout_width="323dp"
         android:layout_height="87dp"
-        android:text="    收费视频免费观看，将视频网页链接复制并且粘贴到上方的文本输入框中，然后点击破解即可观看！"
+        android:text="    收费视频免费观看，将视频网页链接粘贴到输入框中，然后点击破解！"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854" />
+        app:layout_constraintVertical_bias="0.777" />
 
     <EditText
         android:id="@+id/activity_online_video_input"
         android:layout_width="377dp"
         android:layout_height="62dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="320dp"
         android:hint=" 请输入视频所在的网址"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/activity_online_video_open"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginTop="456dp"
+        android:layout_marginTop="408dp"
         android:text="破解"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

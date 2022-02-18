@@ -25,10 +25,14 @@ public class Activity_OnlineVideo extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_website = new Intent(Intent.ACTION_VIEW);
-                String url_input = url_vip + editText.getText().toString();
-                intent_website.setData(Uri.parse(url_input));
-                startActivity(intent_website);
+                if (editText.getText().toString().isEmpty()) {
+                    Toast.makeText(Activity_OnlineVideo.this, "请输入网址！", Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent intent_website = new Intent(Intent.ACTION_VIEW);
+                    String url_input = url_vip + editText.getText().toString();
+                    intent_website.setData(Uri.parse(url_input));
+                    startActivity(intent_website);
+                }
             }
         });
     }
