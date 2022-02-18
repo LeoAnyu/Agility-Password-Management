@@ -5,6 +5,8 @@
         android:title="添加"/>
     <item android:id="@+id/activity_main_layout_menu_delete"
         android:title="删除"/>
+    <item android:id="@+id/activity_main_layout_menu_onlineVideo"
+        android:title="VIP 电影免费观看"/>
     <item android:id="@+id/activity_main_layout_menu_about"
         android:title="关于"/>
 </menu>

@@ -21,7 +21,7 @@ public class Activity_About extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent_website = new Intent(Intent.ACTION_VIEW);
-                intent_website.setData(Uri.parse("http://www.baidu.com/"));
+                intent_website.setData(Uri.parse("http://192.168.0.107:8080/"));
                 startActivity(intent_website);
             }
         });
@@ -31,7 +31,7 @@ public class Activity_About extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent_website = new Intent(Intent.ACTION_VIEW);
-                intent_website.setData(Uri.parse("tel:8617852839865"));
+                intent_website.setData(Uri.parse("https://github.com/LeoAnyu/Agility-Password-Management"));
                 startActivity(intent_website);
             }
         });

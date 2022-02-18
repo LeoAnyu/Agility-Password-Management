@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_OnlineVideo">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="470dp"
+        android:layout_height="221dp"
+        android:layout_marginBottom="107dp"
+        android:src="@drawable/show1"
+        app:layout_constraintBottom_toTopOf="@+id/activity_online_video_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/activity_about_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIP视频免费观看器"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <TextView
+        android:id="@+id/activity_online_video_text01"
+        android:layout_width="323dp"
+        android:layout_height="87dp"
+        android:text="    收费视频免费观看，将视频网页链接复制并且粘贴到上方的文本输入框中，然后点击破解即可观看！"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <EditText
+        android:id="@+id/activity_online_video_input"
+        android:layout_width="377dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="300dp"
+        android:hint=" 请输入视频所在的网址"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/activity_online_video_open"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="456dp"
+        android:text="破解"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

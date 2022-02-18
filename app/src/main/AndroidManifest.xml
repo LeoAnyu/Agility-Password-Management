@@ -2,12 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.activity">
 
-    <!--
-        此应用程序设计者：李云熠
-        联系邮箱：leoanyu@163.com
-        设计时间：2022.02.17 22:24
-    -->
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,11 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activity">
         <activity
+            android:name=".Activity_OnlineVideo"
+            android:exported="false"
+            android:label="VIP 电影免费观看"/>
+        <activity
             android:name=".Activity_Delete"
             android:exported="false"
-            android:label="删除" >
+            android:label="删除">
             <intent-filter>
                 <action android:name="activity_delete_layout" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -31,7 +30,7 @@
         <activity
             android:name=".Activity_Main"
             android:exported="true"
-            android:label="密码管理">
+            android:label="A.P.M">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

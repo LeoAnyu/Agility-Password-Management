@@ -42,6 +42,10 @@ public class Activity_Main extends AppCompatActivity {
                 intent_delete.addCategory("android.intent.category.DEFAULT");
                 startActivity(intent_delete);
                 break;
+            case R.id.activity_main_layout_menu_onlineVideo:
+                Intent intent_onlineVideo = new Intent(Activity_Main.this, Activity_OnlineVideo.class);
+                startActivity(intent_onlineVideo);
+                break;
             case R.id.activity_main_layout_menu_about:
                 Intent intent_about = new Intent(Activity_Main.this, Activity_About.class);
                 startActivity(intent_about);

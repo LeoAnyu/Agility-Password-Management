@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="80dp"
-        android:text="致电我们"
+        android:text="Github"
         android:textSize="17dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/activity_about_03"
         app:layout_constraintEnd_toEndOf="parent" />
